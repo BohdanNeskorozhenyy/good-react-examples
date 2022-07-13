@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.concat = void 0;
+const path_1 = require("path");
+const validate_1 = require("helpers/validate");
+const numbers = require("constants/numbers");
+console.log(path_1.resolve());
+console.log(validate_1.validate(numbers.a));
+const concat = (a, b) => [...a, ...b];
+exports.concat = concat;

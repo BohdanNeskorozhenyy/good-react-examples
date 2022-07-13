@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    nav {
+        margin-top: 10px;
+        a {
+            padding: 10px;
+        }
+    }
+}
+
+.container {
+    padding: 10px;
+
+    p {
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+
+ul {
+    >li {
+        list-style: none;
+    }
+}

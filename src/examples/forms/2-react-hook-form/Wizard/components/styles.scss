@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc((100vh - 40px) - 100px);
+}
+
+.active {
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "date",
+        "type": "date",
+        "label": "Birthday",
+        "placeholder": "Enter birthday"
+    },
+    {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "placeholder": "Enter email",
+        "required": true
+    }
+]

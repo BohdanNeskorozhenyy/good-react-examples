@@ -1,0 +1,14 @@
+[
+    {
+        "name": "fullname",
+        "label": "Full name",
+        "type": "text",
+        "placeholder": "Enter full name",
+        "required": true,
+        "validationRules": {
+            "type": "string",
+            "min": 5,
+            "max": 20
+        }
+    }
+]

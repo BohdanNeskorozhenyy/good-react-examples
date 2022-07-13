@@ -1,0 +1,10 @@
+body {
+    font-family: system-ui;
+    margin: 0;
+
+    /* Зачаровать шрифты */
+    font-smoothing: antialiased;
+    font-variant-ligatures: none;
+
+    min-height: 100vh;
+}

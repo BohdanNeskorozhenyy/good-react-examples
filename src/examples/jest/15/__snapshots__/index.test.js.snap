@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`«api.getUsers»: should send a fetch request and yield data 1`] = `"A call to https://jsonplaceholder.typicode.com/todos was successful"`;

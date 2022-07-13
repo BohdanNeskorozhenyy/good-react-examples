@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    height: 96vh;
+
+    & nav {
+        width: 150px;
+        border-right: 1px solid black;
+        padding: 1rem;
+    }
+
+    & ul {
+        & li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    & section {
+        flex: 1;
+        padding: 1rem;
+    }
+}

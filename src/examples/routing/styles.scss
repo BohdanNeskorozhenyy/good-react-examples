@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+
+    &.active {
+        color: red;
+        text-decoration: underline;
+    }
+
+    &:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+button {
+    &:not(:last-child) {
+        margin-right: 5px;
+    }
+}
